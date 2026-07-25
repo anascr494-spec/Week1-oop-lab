@@ -1,0 +1,23 @@
+--- proving the copy is independent ---
+num1 : 6.0
+num2 : 7.0
+
+num1 : 2.0
+num2 : 10.0
+
+calc1 (20, 4):
+add        = 24.0
+subtract   = 16.0
+multiply   = 80.0
+divide     = 5.0
+power      = 160000.0
+modulus    = 0.0
+
+calc3 (2, 10):
+subtract (edge: negative result) = -8.0
+multiply (edge: with zero would be 0)
+
+divide with num2=0 -> handled error: Cannot divide by zero.
+modulus with num2=0 -> handled error: Cannot compute modulus with a divisor of zero.
+
+power(9, 0.5) = 3.0

@@ -1,0 +1,50 @@
+--- proving the copy is independent ---
+Brand      : Tesla
+Color      : Red
+Speed      : 0 km/h
+Gear       : 0
+Fuel level : 100.0%
+Engine on  : false
+
+Brand      : Tesla
+Color      : White
+Speed      : 0 km/h
+Gear       : 0
+Fuel level : 100.0%
+Engine on  : false
+
+BMW engine started.
+Tesla engine started.
+BMW is driving at 10 km/h.
+BMW speeds up to 30 km/h.
+Tesla is driving at 10 km/h.
+BMW TURBO engaged! Speed: 70 km/h.
+Tesla engine stopped.
+Tesla won't move - engine is off.
+BMW slows down to 60 km/h.
+BMW slows down to 50 km/h.
+BMW slows down to 40 km/h.
+BMW slows down to 30 km/h.
+BMW slows down to 20 km/h.
+Brand      : BMW
+Color      : Black
+Speed      : 20 km/h
+Gear       : 1
+Fuel level : 84.0%
+Engine on  : true
+
+Brand      : Tesla
+Color      : Red
+Speed      : 0 km/h
+Gear       : 0
+Fuel level : 98.0%
+Engine on  : false
+
+BMW engine stopped.
+Brand      : BMW
+Color      : Black
+Speed      : 0 km/h
+Gear       : 0
+Fuel level : 84.0%
+Engine on  : false
+
