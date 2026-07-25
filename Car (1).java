@@ -1,6 +1,6 @@
 /*
  * File: Car.java
- * Student: <put your name>   Seat No: <put your seat no>
+ * Student: Anas Arshad   Seat No: B25110006025
  * Purpose: Enhanced Car class for Week 1 assignment (Part A).
  */
 public class Car {
