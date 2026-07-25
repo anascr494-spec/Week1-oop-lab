@@ -4,16 +4,13 @@
  * Purpose: Enhanced Car class for Week 1 assignment (Part A).
  */
 public class Car {
-    // Attributes: each Car object stores its own copy of these (its "state").
     private String brand;
     private String color;
     private int speed;
     private boolean engineOn;
-    private double fuelLevel;   // new attribute: 0-100 (%)
-    private int gear;           // new attribute: 0 = neutral/parked
-
-    // 1) No-argument ("null"/default) constructor: gives every field a
-    //    safe starting value when the caller doesn't supply any.
+    private double fuelLevel;   
+    private int gear;           
+    
     public Car() {
         this.brand = "Unknown";
         this.color = "Unpainted";
@@ -23,8 +20,6 @@ public class Car {
         this.gear = 0;
     }
 
-    // 2) Parameterized constructor: lets the caller set every field
-    //    directly at creation time, one parameter per attribute.
     public Car(String brand, String color, int speed, boolean engineOn,
                double fuelLevel, int gear) {
         this.brand = brand;
@@ -35,10 +30,6 @@ public class Car {
         this.gear = gear;
     }
 
-    // 3) Copy constructor: builds a brand-new, independent Car object
-    //    with the same field values as "other". Note "other" is still
-    //    a separate object on the heap - changing this Car afterward
-    //    does NOT affect other.
     public Car(Car other) {
         this.brand = other.brand;
         this.color = other.color;
@@ -59,7 +50,6 @@ public class Car {
         System.out.println(this.brand + " engine started.");
     }
 
-    // Rule: cannot drive without the engine on. Also consumes fuel.
     public void drive() {
         if (!this.engineOn) {
             System.out.println(this.brand + " won't move - engine is off.");
@@ -84,7 +74,6 @@ public class Car {
         System.out.println(this.brand + " speeds up to " + this.speed + " km/h.");
     }
 
-    // Rule: speed never goes below zero.
     public void moveSlow() {
         this.speed = Math.max(0, this.speed - 10);
         System.out.println(this.brand + " slows down to " + this.speed + " km/h.");
@@ -98,7 +87,6 @@ public class Car {
         System.out.println(this.brand + " is turning right.");
     }
 
-    // Creative feature: short burst of extra speed, costs more fuel, needs engine on.
     public void turboMode() {
         if (!this.engineOn) {
             System.out.println(this.brand + " can't engage turbo - engine is off.");
@@ -113,7 +101,6 @@ public class Car {
         System.out.println(this.brand + " TURBO engaged! Speed: " + this.speed + " km/h.");
     }
 
-    // Rule: stopping the engine always resets speed to zero.
     public void stopEngine() {
         this.speed = 0;
         this.gear = 0;
