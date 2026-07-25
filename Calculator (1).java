@@ -1,6 +1,6 @@
 /*
  * File: Calculator.java
- * Student: <put your name>   Seat No: <put your seat no>
+ * Student: Anas Arshad   Seat No: B25110006025
  * Purpose: Calculator class for Week 1 assignment (Part B).
  *          Stores two numbers (num1, num2) as attributes; each operation
  *          works on those stored numbers instead of taking parameters.
