@@ -1,6 +1,6 @@
 # Week 1 Lab — Object-Oriented Programming
-**Student:** \<put your name>
-**Seat No:** \<put your seat no>
+**Student:** Anas Arshad
+**Seat No:** B25110006025
 **Course:** OOP, Summer 2026 — Dr. Humera Tariq
 
 ## What's in this repo
