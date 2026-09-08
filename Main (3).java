@@ -1,9 +1,3 @@
-/*
- * File: Main.java
- * Student: Anas Arshad   Seat No: B25110006025
- * Purpose: Demonstrates Calculator (num1/num2 attribute version) with
- *          normal and edge cases for every operation.
- */
 public class Main {
     public static void main(String[] args) {
 
