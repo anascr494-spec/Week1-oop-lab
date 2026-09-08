@@ -1,8 +1,3 @@
-/*
- * File: Car.java
- * Student: Anas Arshad   Seat No: B25110006025
- * Purpose: Enhanced Car class for Week 1 assignment (Part A).
- */
 public class Car {
     private String brand;
     private String color;
