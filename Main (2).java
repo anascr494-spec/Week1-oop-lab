@@ -1,8 +1,3 @@
-/*
- * File: Main.java
- * Student: Anas Arshad   Seat No: B25110006025
- * Purpose: Creates and controls two independent Car objects.
- */
 public class Main {
     public static void main(String[] args) {
 
